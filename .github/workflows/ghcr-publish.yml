@@ -52,7 +52,7 @@ jobs:
           file: Dockerfile
           push: true
           tags: |
-            ghcr.io/Aralobster/hermes-agent:fix-docker-matrix-update
-            ghcr.io/Aralobster/hermes-agent:latest
+            ghcr.io/aralobster/hermes-agent:fix-docker-matrix-update
+            ghcr.io/aralobster/hermes-agent:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
