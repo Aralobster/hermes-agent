@@ -54,5 +54,6 @@ jobs:
           tags: |
             ghcr.io/aralobster/hermes-agent:fix-docker-matrix-update
             ghcr.io/aralobster/hermes-agent:latest
+          no-cache: true
           cache-from: type=gha
           cache-to: type=gha,mode=max
